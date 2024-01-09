@@ -1,9 +1,9 @@
 <!-- HTML -->
 <template>
-  <!-- Insert Navigation Bar -->
+  <!-- Navigation Bar -->
   <NavigationBar/>
   <!-- Body -->
-  <div class="body w-100 h-100">
+  <div class="body vh-100">
         <div id="home-container">
             <!-- Home Heading -->
             <div class="home-information" id="home-information">
