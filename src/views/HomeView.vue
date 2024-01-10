@@ -23,22 +23,28 @@
         </div>
         <!-- Home Button -->
         <div id="home-button">
+          <router-link to="https://mail.google.com/mail/u/?authuser=user@gmail.com">
             <button>
               <i class="fa-regular fa-envelope"></i>
               <p class="home-button">johnsontyhiesha@gmail.com</p>
             </button>
+          </router-link>
         </div>
     </div>
+    <!-- Footer -->
+    <Footer/>
 </template>
 
 <script>
 // @ is an alias to /src
 import NavigationBar from '@/components/Reusables/Navigation.vue'
+import Footer from '@/components/Reusables/Footer.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    NavigationBar
+    NavigationBar,
+    Footer
   }
 }
 </script>
