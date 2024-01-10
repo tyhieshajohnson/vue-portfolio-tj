@@ -94,6 +94,8 @@
         </div>
       </div>
     </div>
+    <!-- Footer -->
+    <Footer/>
   </div>
 </div>
 </template>
@@ -101,11 +103,13 @@
 <!-- JavaScript -->
 <script>
 import NavigationBar from '@/components/Reusables/Navigation.vue'
+import Footer from '@/components/Reusables/Footer.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    NavigationBar
+    NavigationBar,
+    Footer
   }
 }
 </script>
@@ -134,21 +138,10 @@ export default {
   margin-top: 100px;
   margin-left: 100px;
 }
-.aboutInfo {
-  /* margin-left: 500px; */
-}
 
-about-intro {
+.about-intro {
   display: flex;
   justify-content: center;
-}
-/* Grid - Images */
-.profile {
-  /* margin-right: 900px; */
-}
-
-.profile-info {
- 
 }
 
 /* Resume Button */
