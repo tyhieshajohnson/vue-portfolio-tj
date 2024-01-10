@@ -106,7 +106,7 @@ import NavigationBar from '@/components/Reusables/Navigation.vue'
 import Footer from '@/components/Reusables/Footer.vue'
 
 export default {
-  name: 'HomeView',
+  name: 'AboutView',
   components: {
     NavigationBar,
     Footer
