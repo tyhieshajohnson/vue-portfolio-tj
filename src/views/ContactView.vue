@@ -6,8 +6,8 @@
     <div class="body vh-1000 w-100">
         <div class="contact-container" style="font-family: 'Manrope', sans-serif;">
             <div class="contact-heading">
-                <h1 style="font-family: 'Manrope', sans-serif; display: flex; justify-content: center; padding-top: 50px;">Contact Me</h1>
-                <p style="font-family: 'Manrope', sans-serif; display: flex; justify-content: center;">Let's Have Coffee</p>
+                <h1 style="font-family: 'Manrope', sans-serif; display: flex; justify-content: center; padding-top: 50px; padding-left: 100px;">Contact Me</h1>
+                <p style="font-family: 'Manrope', sans-serif; display: flex; justify-content: center; padding-left: 100px;">Let's Have Coffee</p>
             </div>
         </div>
         <!-- Icons -->
@@ -94,32 +94,28 @@ export default {
     background-color: #202020;
     position: absolute; 
     z-index: -100;
+    overflow: hidden;
 }
 
 .icon-container {
     display: flex;
     justify-content: center;
+    padding-left: 200px;
 }
 
 #form-container {
     width: 650px;
     height: 500px;
     border-radius: 24px;
-    background-image: url(https://drive.google.com/uc?export=download&id=1Lf8V372T3q0K8-Y9p4DGQqyc7mU5PgC0);
     margin-top: 100px;
     margin-left: 500px;
     margin-bottom: 100px;
-    filter: blur(2px);
+    background-color: #3B3B3B;
 }
 
 form {
     padding-left: 200px;
     padding-top: 60px;
     z-index: -1000;
-}
-
-.form-container:hover form {
-    z-index: -100px;
-    background-color: #3B3B3B;
 }
 </style>
