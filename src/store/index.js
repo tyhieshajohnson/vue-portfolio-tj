@@ -19,12 +19,16 @@ const fetchData = async (url, mutation, dataProperty, context) => {
 export default createStore({
   state: {
     projects: [],
+    salaam: [],
   },
   getters: {
   },
   mutations: {
     setProjects: (state,projects)=> {
       state.projects = projects;
+    },
+    setSalaam: (state,salaam)=> {
+      state.salaam = salaam;
     }
   },
   actions: {
@@ -35,6 +39,11 @@ export default createStore({
       url: jsonLink,
       mutation: "setProjects",
       dataProperty: "projects",
+    }),
+    getSalaam: async (context) => context.dispatch('fetchData', {
+      url: jsonLink,
+      mutation: "setSalaam",
+      dataProperty: "salaam",
     }),
   },
   modules: {
