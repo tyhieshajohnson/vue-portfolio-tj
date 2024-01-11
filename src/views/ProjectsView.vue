@@ -6,9 +6,9 @@
         <div class="body vh-1000 w-100">
             <h1>HelloWorld</h1>
               <ProjectCard v-for="project in projects" :key="project.id" :project="project"/>
-            <!-- Footer -->
-            <Footer/>
         </div>
+        <!-- Footer -->
+        <Footer/>
     </div>
 </template>
 
@@ -42,8 +42,8 @@ export default {
 
 .body {
     background-color: #202020;
-    position: absolute; 
-    z-index: -100;
-    overflow: hidden;
+    /* position: absolute; 
+    z-index: -100; */
+    overflow-x: hidden;
  }
 </style>
