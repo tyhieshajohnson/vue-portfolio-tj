@@ -5,7 +5,7 @@
         <NavigationBar/>
         <div class="body vh-1000 w-100">
             <h1>HelloWorld</h1>
-              <ProjectInfo v-for="project in projects" :key="project.id"/>
+              <ProjectCard v-for="project in projects" :key="project.id" :project="project"/>
             <!-- Footer -->
             <Footer/>
         </div>
@@ -16,23 +16,24 @@
 <script>
 import NavigationBar from '@/components/Reusables/Navigation.vue'
 import Footer from '@/components/Reusables/Footer.vue'
+import ProjectCard from '@/components/Projects/ProjectCard.vue'
 
 export default {
     name: 'AboutView',
     components: {
     NavigationBar,
-    Footer
+    Footer,
+    ProjectCard,
     },
-    computed:{
-        projects(){
-            return this.$store.state.projects
+    computed: {
+    projects() {
+        return this.$store.state.projects;
+    }
+},
 
-        }
-    },
     mounted(){
-        this.$store.dispatch("")
+        this.$store.dispatch("getProjects")
     },
-    components: {ProjectInfo}
 };
 </script>
 
