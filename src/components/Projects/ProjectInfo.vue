@@ -1,3 +1,12 @@
 <template>
-    <h1>HelloWorld</h1>
+{{ project.id }}
+{{ project.heading }}
+{{ project.text }}
 </template>
+
+<script>
+export default{
+    props:["project"]
+}
+
+</script>

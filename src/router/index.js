@@ -42,6 +42,12 @@ const routes = [
     path: '/footer',
     name: 'footer',
     component: Footer
+  },
+  // Fetching JSON data for Projects
+  {
+    path: '/projects',
+    name: 'projects',
+    component: ProjectsView
   }
 ]
 
