@@ -48,7 +48,13 @@ const routes = [
     path: '/projects',
     name: 'projects',
     component: ProjectsView
-  }
+  },
+  // Fetching JSON data for Testimonials
+  // {
+  //   path: '/testimonial',
+  //   name: 'testimonial',
+  //   component: Testimonial
+  // }
 ]
 
 const router = createRouter({
