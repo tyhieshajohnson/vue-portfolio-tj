@@ -3,7 +3,7 @@
   <!-- Navigation Bar -->
   <NavigationBar />
   <!-- Body -->
-  <div class="body w-100 h-100">
+  <div class="body vh-1000 h-100">
     <div id="home-container">
       <!-- Home Heading -->
       <div class="home-information" id="home-information">
@@ -36,20 +36,14 @@
     </div>
     <!-- Home Button -->
     <div id="home-button">
-      <button>
+      <button type="button">
         <i class="fa-regular fa-envelope"></i>
-        <p class="home-button">johnsontyhiesha@gmail.com</p>
+        <p class="home-button">
+          <a href="https://mail.google.com/mail/u/0/" style="text-decoration: none;">
+            johnsontyhiesha@gmail.com  
+          </a></p>
       </button>
     </div>
-  </div>
-  <!-- Home Button -->
-  <div id="home-button">
-    <router-link to="https://mail.google.com/mail/u/?authuser=user@gmail.com">
-      <button>
-        <i class="fa-regular fa-envelope"></i>
-        <p class="home-button">johnsontyhiesha@gmail.com</p>
-      </button>
-    </router-link>
   </div>
   <!-- Footer -->
   <Footer />
