@@ -18,7 +18,7 @@
             <button>
               <i class="fa-solid fa-file-arrow-down"></i>
               <p class="resume-button"  style="font-family: 'Manrope', sans-serif; display: flex; justify-content: center;">
-                <a href="https://docs.google.com/document/d/1DaMLLvxeavYRr6rDxN2Y1hLz0jNYV_EOOh73up3FErQ/edit?usp=sharing" download>DOWNLOAD RESUME</a></p>
+                <a href="https://www.hostize.com/v/A6xPpdqQO7/resume---tyhiesha-ty-johnson-pdf" download>DOWNLOAD RESUME</a></p>
             </button>
           </div>
         </div>

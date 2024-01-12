@@ -17,7 +17,7 @@
                     <router-link to="/about" class="nav-link" style="font-family: 'Manrope', sans-serif;">About</router-link> 
                     <router-link to="/projects" class="nav-link" style="font-family: 'Manrope', sans-serif;">Projects</router-link> 
                     <router-link to="/resume" class="nav-link" style="font-family: 'Manrope', sans-serif;">Resume</router-link> 
-                    <router-link to="/testimonail" class="nav-link" style="font-family: 'Manrope', sans-serif;">Testimonial</router-link> 
+                    <router-link to="/testimonial" class="nav-link" style="font-family: 'Manrope', sans-serif;">Testimonial</router-link> 
                     <router-link to="/contact" class="nav-link" style="font-family: 'Manrope', sans-serif;">Contact</router-link> 
                 </div>
             </div>

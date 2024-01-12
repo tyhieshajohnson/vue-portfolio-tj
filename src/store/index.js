@@ -20,6 +20,7 @@ export default createStore({
   state: {
     projects: [],
     salaam: [],
+    testimonial: [],
   },
   getters: {
   },
@@ -29,6 +30,9 @@ export default createStore({
     },
     setSalaam: (state,salaam)=> {
       state.salaam = salaam;
+    },
+    setTestimonial: (state,testimonial)=> {
+      state.salaam = testimonial;
     }
   },
   actions: {
@@ -44,6 +48,11 @@ export default createStore({
       url: jsonLink,
       mutation: "setSalaam",
       dataProperty: "salaam",
+    }),
+    getTestimonial: async (context) => context.dispatch('fetchData', {
+      url: jsonLink,
+      mutation: "setTestimonial",
+      dataProperty: "testimonial",
     }),
   },
   modules: {
