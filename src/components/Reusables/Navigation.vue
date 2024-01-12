@@ -7,7 +7,7 @@
             <div class="container-fluid">
                 <router-link to="/" class="nav-link">
                     <!-- Google Drive Embedded Link -->
-                    <img src="https://drive.google.com/uc?export=download&id=1ZsMucyOQz0-_8y6oYv16u-kNqampKukA" alt="Logo" width="30" height="20" class="d-inline-block align-text-top" id="logo">
+                    <img src="https://ibb.co/KqsqHgz"><img src="https://i.ibb.co/1qXqxNJ/Screenshot-2024-01-09-123339.png" alt="Logo" width="30" height="20" class="d-inline-block align-text-top" id="logo">
                     <a style="font-family: 'Manrope', sans-serif;">Tyhiesha</a>
                 </router-link>
                 
