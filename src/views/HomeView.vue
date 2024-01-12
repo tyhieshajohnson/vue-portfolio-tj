@@ -124,7 +124,20 @@ button {
 }
 
 @media screen and (max-width: 750px) {
-  /* Adjust your styles for smaller screens here */
+  .body {
+    width: 100%;
+    height: 100%;
+  }
+
+  #home-information {
+    width: 100%; 
+    height: auto;
+    border-radius: 0;
+    background-color: #3b3b3b;
+    margin-top: 20px; 
+    margin-left: 0; 
+    padding: 20px; 
+  }
   .home-image {
     width: 100%;
     height: auto;
