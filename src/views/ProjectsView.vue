@@ -47,6 +47,6 @@ export default {
   background-color: #202020;
   /* position: absolute; 
     z-index: -100; */
-  overflow-x: hidden;
-}
+    overflow-x: hidden; 
+   }
 </style>
