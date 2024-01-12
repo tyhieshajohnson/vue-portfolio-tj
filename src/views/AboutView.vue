@@ -113,6 +113,7 @@
       <Footer />
     </div>
   </div>
+  </div>
 </template>
 
 <!-- JavaScript -->
