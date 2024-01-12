@@ -4,40 +4,52 @@
   <NavigationBar />
   <!-- Body -->
   <div class="body w-100 h-100">
-        <div id="home-container">
-            <!-- Home Heading -->
-            <div class="home-information" id="home-information">
-                <h1 style="font-family: 'Manrope', sans-serif;" class="home-description">Hi, I am Tyhiesha Johnson <br>A Front-End Developer <br>based in Cape Town.</h1>
-                <!-- Home Description -->
-                <p style="font-family: 'Manrope', sans-serif;" class="home-description">Hey there! I'm Ty, a passionate and curious front-end developer <br>
-                on the journey of turning ideas into captivating web experiences. With a <br>
-                foundation in HTML, CSS, and JavaScript, I'm excited about the dynamic <br>
-                world of web development and the endless possibilities it offers. My <br>
-                enthusiasm for crafting user-friendly interfaces drives me to stay up-to-date <br>
-                with the latest technologies and best practices.</p>
-            </div>
-            <!-- Home Image -->
-            <div id="home-image">
-                <img src="https://i.ibb.co/2c2zBSc/1690957765595-bw.jpg" alt="" class="home-image">
-            </div>
-        </div>
-        <!-- Home Button -->
-        <div id="home-button">
-            <button>
-              <i class="fa-regular fa-envelope"></i>
-              <p class="home-button">johnsontyhiesha@gmail.com</p>
-            </button>
-        </div>
+    <div id="home-container">
+      <!-- Home Heading -->
+      <div class="home-information" id="home-information">
+        <h1 style="font-family: 'Manrope', sans-serif" class="home-description">
+          Hi, I am Tyhiesha Johnson <br />A Front-End Developer <br />based in
+          Cape Town.
+        </h1>
+        <!-- Home Description -->
+        <p style="font-family: 'Manrope', sans-serif" class="home-description">
+          Hey there! I'm Ty, a passionate and curious front-end developer <br />
+          on the journey of turning ideas into captivating web experiences. With
+          a <br />
+          foundation in HTML, CSS, and JavaScript, I'm excited about the dynamic
+          <br />
+          world of web development and the endless possibilities it offers. My
+          <br />
+          enthusiasm for crafting user-friendly interfaces drives me to stay
+          up-to-date <br />
+          with the latest technologies and best practices.
+        </p>
+      </div>
+      <!-- Home Image -->
+      <div id="home-image">
+        <img
+          src="https://i.ibb.co/2c2zBSc/1690957765595-bw.jpg"
+          alt=""
+          class="home-image"
+        />
+      </div>
     </div>
     <!-- Home Button -->
     <div id="home-button">
-      <router-link to="https://mail.google.com/mail/u/?authuser=user@gmail.com">
-        <button>
-          <i class="fa-regular fa-envelope"></i>
-          <p class="home-button">johnsontyhiesha@gmail.com</p>
-        </button>
-      </router-link>
+      <button>
+        <i class="fa-regular fa-envelope"></i>
+        <p class="home-button">johnsontyhiesha@gmail.com</p>
+      </button>
     </div>
+  </div>
+  <!-- Home Button -->
+  <div id="home-button">
+    <router-link to="https://mail.google.com/mail/u/?authuser=user@gmail.com">
+      <button>
+        <i class="fa-regular fa-envelope"></i>
+        <p class="home-button">johnsontyhiesha@gmail.com</p>
+      </button>
+    </router-link>
   </div>
   <!-- Footer -->
   <Footer />
