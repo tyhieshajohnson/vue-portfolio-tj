@@ -18,7 +18,7 @@
             </div>
             <!-- Home Image -->
             <div id="home-image">
-                <img src="https://drive.google.com/uc?export=download&id=1A_2-Ma5uvhxAhJyv7NGdQMFDsMkjhUR7" alt="" class="home-image">
+                <img src="https://i.ibb.co/2c2zBSc/1690957765595-bw.jpg" alt="" class="home-image">
             </div>
         </div>
         <!-- Home Button -->
