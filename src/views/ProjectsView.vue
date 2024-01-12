@@ -4,8 +4,8 @@
     <!-- Navigation Bar -->
     <NavigationBar />
     <div class="body vh-1000 w-100">
-      <h1>HelloWorld</h1>
-      <ProjectCard
+        <h1>Projects</h1>
+        <ProjectCard
         v-for="project in projects"
         :key="project.id"
         :project="project"
@@ -47,6 +47,6 @@ export default {
   background-color: #202020;
   /* position: absolute; 
     z-index: -100; */
-    overflow-x: hidden; 
-   }
+  overflow-x: hidden;
+}
 </style>
