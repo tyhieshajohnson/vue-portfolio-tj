@@ -18,7 +18,7 @@
 <script>
 import NavigationBar from "@/components/Reusables/Navigation.vue";
 import Footer from "@/components/Reusables/Footer.vue";
-import Testimonial from "@/components/Testimonials/Testimonial.vue";
+import Testimonial from "@/views/TestimonialView.vue";
 
 export default {
   name: "Testimonial",
