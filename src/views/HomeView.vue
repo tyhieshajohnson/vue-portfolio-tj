@@ -1,7 +1,7 @@
 <!-- HTML -->
 <template>
-  <!-- Insert Navigation Bar -->
-  <NavigationBar/>
+  <!-- Navigation Bar -->
+  <NavigationBar />
   <!-- Body -->
   <div class="body w-100 h-100">
         <div id="home-container">
@@ -29,44 +29,58 @@
             </button>
         </div>
     </div>
+    <!-- Home Button -->
+    <div id="home-button">
+      <router-link to="https://mail.google.com/mail/u/?authuser=user@gmail.com">
+        <button>
+          <i class="fa-regular fa-envelope"></i>
+          <p class="home-button">johnsontyhiesha@gmail.com</p>
+        </button>
+      </router-link>
+    </div>
+  </div>
+  <!-- Footer -->
+  <Footer />
 </template>
 
 <script>
 // @ is an alias to /src
-import NavigationBar from '@/components/Reusables/Navigation.vue'
+import NavigationBar from "@/components/Reusables/Navigation.vue";
+import Footer from "@/components/Reusables/Footer.vue";
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-    NavigationBar
-  }
-}
+    NavigationBar,
+    Footer,
+  },
+};
 </script>
 
 <style scoped>
 /* Body */
 .body {
-    background-color: #202020;
- }
+  background-color: #202020;
+}
 
 .nav-links {
-    display: flex;
-    flex-flow: row nowrap;
-    margin-right: 30px;
- }
+  display: flex;
+  flex-flow: row nowrap;
+  margin-right: 30px;
+}
 
- /* Home Content */
- /* Alignment */
+/* Home Content */
+/* Alignment */
 #home-container {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 #home-information {
-    float: inline-start;
+  float: inline-start;
 }
 
 #home-image {
-    float: inline-end;
+  float: inline-end;
 }
 /* Image Size and Border */
 .home-image {
@@ -78,14 +92,14 @@ export default {
 }
 
 .home-description {
-    font-style: normal;
-    font-weight: 100;
-    margin-left: 50px;
-    margin-top: 50px;
+  font-style: normal;
+  font-weight: 100;
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
 button {
-  background-color: #9D9D9D;
+  background-color: #9d9d9d;
   margin-left: 50px;
   border-radius: 4px;
   border: none;
@@ -94,12 +108,12 @@ button {
 }
 
 #home-button {
-    height: 64px;
-    width: 400px;
+  height: 64px;
+  width: 400px;
 }
 
 .home-button p {
   font-size: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 </style>

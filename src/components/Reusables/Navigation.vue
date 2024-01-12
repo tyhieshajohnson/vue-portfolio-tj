@@ -13,12 +13,12 @@
                 
                 <!-- Navigation Links: Home, About, Personal Projects, Resume, Testimonials and Contact -->
                 <div class="nav-links">
-                    <router-link to="/" class="nav-link" style="font-family: 'Manrope', sans-serif;">Home </router-link> |
-                    <router-link to="/about" class="nav-link" style="font-family: 'Manrope', sans-serif;">About</router-link> |
-                    <router-link to="/projects" class="nav-link" style="font-family: 'Manrope', sans-serif;">Projects</router-link> |
-                    <router-link to="/resume" class="nav-link" style="font-family: 'Manrope', sans-serif;">Resume</router-link> |
-                    <router-link to="/testimonail" class="nav-link" style="font-family: 'Manrope', sans-serif;">Testimonial</router-link> |
-                    <router-link to="/contact" class="nav-link" style="font-family: 'Manrope', sans-serif;">Contact</router-link> |
+                    <router-link to="/" class="nav-link" style="font-family: 'Manrope', sans-serif;">Home </router-link> 
+                    <router-link to="/about" class="nav-link" style="font-family: 'Manrope', sans-serif;">About</router-link> 
+                    <router-link to="/projects" class="nav-link" style="font-family: 'Manrope', sans-serif;">Projects</router-link> 
+                    <router-link to="/resume" class="nav-link" style="font-family: 'Manrope', sans-serif;">Resume</router-link> 
+                    <router-link to="/testimonail" class="nav-link" style="font-family: 'Manrope', sans-serif;">Testimonial</router-link> 
+                    <router-link to="/contact" class="nav-link" style="font-family: 'Manrope', sans-serif;">Contact</router-link> 
                 </div>
             </div>
         </nav>
@@ -61,7 +61,7 @@ export default {
  }
  .nav-links {
     display: flex;
-    flex-flow: row nowrap;
-    margin-right: 30px;
+    width: 500px;
+    justify-content: space-between;
  }
 </style>
