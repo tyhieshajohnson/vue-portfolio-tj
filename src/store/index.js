@@ -32,7 +32,7 @@ export default createStore({
       state.salaam = salaam;
     },
     setTestimonial: (state,testimonial)=> {
-      state.salaam = testimonial;
+      state.testimonial = testimonial;
     }
   },
   actions: {
