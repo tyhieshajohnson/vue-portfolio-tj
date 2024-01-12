@@ -122,4 +122,27 @@ button {
   font-size: 10px;
   color: #ffffff;
 }
+
+@media screen and (max-width: 750px) {
+  /* Adjust your styles for smaller screens here */
+  .home-image {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .home-description {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  button {
+    margin-left: 20px;
+  }
+
+  #home-button {
+    width: 100%;
+  }
+}
 </style>
