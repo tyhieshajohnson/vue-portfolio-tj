@@ -5,6 +5,7 @@ import ProjectsView from '../views/ProjectsView.vue'
 import ResumeView from '../views/ResumeView.vue'
 import TestimonialView from '../views/TestimonialView.vue'
 import ContactView from '../views/ContactView.vue'
+import Footer from '../components/Reusables/Footer.vue'
 
 const routes = [
   {
@@ -29,13 +30,24 @@ const routes = [
   },
   {
     path: '/testimonial',
-    name: 'tesrimonial',
+    name: 'testimonial',
     component: TestimonialView
   },
   {
     path: '/contact',
     name: 'contact',
     component: ContactView
+  },
+  {
+    path: '/footer',
+    name: 'footer',
+    component: Footer
+  },
+  // Fetching JSON data for Projects
+  {
+    path: '/projects',
+    name: 'projects',
+    component: ProjectsView
   }
 ]
 

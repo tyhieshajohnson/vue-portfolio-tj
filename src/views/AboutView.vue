@@ -1,5 +1,5 @@
 <template>
-<div>
+  <div>
     <!-- Navigation Bar -->
     <NavigationBar/>
   <!-- Body -->
@@ -109,53 +109,55 @@
         </div>
         </div>
       </div>
+      <!-- Footer -->
+      <Footer />
     </div>
   </div>
-</div>
 </template>
 
 <!-- JavaScript -->
 <script>
-import NavigationBar from '@/components/Reusables/Navigation.vue'
+import NavigationBar from "@/components/Reusables/Navigation.vue";
+import Footer from "@/components/Reusables/Footer.vue";
 
 export default {
-  name: 'HomeView',
+  name: "AboutView",
   components: {
-    NavigationBar
-  }
-}
+    NavigationBar,
+    Footer,
+  },
+};
 </script>
 
 <!-- CSS -->
 <style scoped>
 /* Body */
 .body {
-    background-color: #202020;
-    position: absolute; 
-    z-index: -100;
- }
+  background-color: #202020;
+  position: absolute;
+  z-index: -100;
+}
 
 .nav-links {
-    display: flex;
-    flex-flow: row nowrap;
-    margin-right: 30px;
- }
+  display: flex;
+  flex-flow: row nowrap;
+  margin-right: 30px;
+}
 
 /* About Information Div */
 #about-information {
   width: 1307px;
   height: 1500px;
   border-radius: 24px;
-  background-color: #3B3B3B;
+  background-color: #3b3b3b;
   margin-top: 100px;
   margin-left: 100px;
 }
 
-about-intro {
+.about-intro {
   display: flex;
   justify-content: center;
 }
-/* Grid - Images */
 
 /* Resume Button */
 button {
@@ -176,7 +178,7 @@ button {
 
 .resume-button p {
   font-size: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* Story */
@@ -186,7 +188,7 @@ button {
   filter: blur(2px);
 }
 .img-1-info {
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
